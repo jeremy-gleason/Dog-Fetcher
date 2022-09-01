@@ -1,0 +1,48 @@
+@keyframes spin {
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+    background-color: burlywood;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a, h1, select, button {
+    display: inline-block;
+    margin: 0.5rem;
+}
+
+h1 {
+    margin-right: 1.5rem;
+}
+
+.spinner {
+    font-size: 3rem;
+    animation: spin 1s linear infinite;
+}
+
+.dog-img {
+    display: block;
+    margin: auto;
+    width: 500px;
+}
+
+.hidden {
+    display: none;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
